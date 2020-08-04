@@ -1,0 +1,45 @@
+@import '../../stylesheets/variables.scss';
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 30px;
+  background-color: $light-color;
+
+  &__heading {
+    font-size: 40px;
+    margin: 0px;
+
+    @media all and (min-width: 768px) {
+      font-size: 70px;
+    }
+  }
+
+  &__position {
+    display: block;
+    color: $primary-color;
+  }
+
+  &__carousel {
+    font-size: 35px;
+    margin: 0px;
+
+    @media all and (min-width: 768px) {
+      font-size: 60px;
+    }
+  }
+
+  &__likes {
+    color: $secondary-color;
+  }
+
+  &__links {
+    margin-top: 30px;
+  }
+
+  &__socialNetwork {
+    margin-left: 30px;
+  }
+}

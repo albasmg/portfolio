@@ -1,0 +1,17 @@
+@import '../../stylesheets/variables.scss';
+
+.header {
+  background-color: $light-color;
+
+  &__menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 20px;
+    list-style-type: none;
+  }
+
+  &__menuElement {
+    margin: 20px;
+  }
+}
