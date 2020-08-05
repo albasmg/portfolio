@@ -35,8 +35,15 @@
     color: $secondary-color;
   }
 
-  &__links {
+  &__linksContainer {
+    display: flex;
     margin-top: 30px;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  &__heroLink {
+    list-style-type: none;
   }
 
   &__socialNetwork {

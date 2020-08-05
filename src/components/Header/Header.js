@@ -1,13 +1,20 @@
 import React from 'react';
+import Link from '../Link/Link';
 import './header.scss';
 
 const Header = (props) => {
   return (
     <header className="header">
       <ul className="header__menu">
-        <li className="header__menuElement">Proyectos</li>
-        <li className="header__menuElement">Sobre mi</li>
-        <li className="header__menuElement">Contacto</li>
+        <li className="header__menuElement">
+          <Link name="Proyectos"></Link>
+        </li>
+        <li className="header__menuElement">
+          <Link name="Sobre mi" />
+        </li>
+        <li className="header__menuElement">
+          <Link name="Contacto" />
+        </li>
       </ul>
     </header>
   );

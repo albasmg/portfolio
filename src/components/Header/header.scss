@@ -6,6 +6,10 @@
   &__menu {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
     margin: 0;
     padding: 20px;
     list-style-type: none;
