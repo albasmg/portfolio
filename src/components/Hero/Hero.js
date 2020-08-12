@@ -49,6 +49,9 @@ const Hero = (props) => {
           />
         </li>
       </ul>
+      <section>
+        <div className="skewed"></div>
+      </section>
     </section>
   );
 };

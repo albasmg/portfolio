@@ -1,12 +1,13 @@
 .project {
-  height: 300px;
-  width: 400px;
+  position: relative;
+  height: 600px;
+  width: 600px;
   background-color: $light-color;
   margin: 10px;
-  padding-bottom: 20px;
 
   &__imgContainer {
-    height: 200px;
+    height: 400px;
+    background-color: lightgrey;
   }
 
   &__img {
@@ -17,9 +18,53 @@
 
   &__title {
     color: $dark-color;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 400;
-    margin: 20px 0px 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    display: none;
+    color: $dark-color;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+  }
+
+  &__icons {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  &__icon {
+    display: none;
+    height: 40px;
+    width: 40px;
+  }
+
+  &__info {
+    height: 30%;
+    width: 100%;
+    background-color: lightblue;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+
+    &:hover {
+      transition: ease-in 0.5s;
+      height: 100%;
+
+      .project__description {
+        display: block;
+      }
+
+      .project__icon {
+        display: inline-block;
+      }
+    }
   }
 
   &__skills {

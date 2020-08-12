@@ -1,14 +1,9 @@
 .projects {
+  display: flex;
+  justify-content: center;
   height: 100vh;
   padding: 30px;
-  z-index: -1;
-
-  &__heading {
-    margin: 0px;
-    color: $dark-color;
-    font-size: 30px;
-    text-align: center;
-  }
+  z-index: 1;
 
   &__container {
     display: flex;
