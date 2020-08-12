@@ -1,4 +1,10 @@
 .link {
   text-decoration: underline;
   color: $dark-color;
+  padding: 3px;
+
+  &:hover {
+    background-color: $primary-color;
+    color: $light-color;
+  }
 }
