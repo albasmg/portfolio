@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from '../Link/Link';
-
+import cv from '../../assets/documents/CV-AlbaSanMartín.pdf';
 const likes = ['el diseño', 'resolver problemas', 'aprender cosas nuevas'];
 
 const Hero = (props) => {
@@ -25,7 +25,7 @@ const Hero = (props) => {
       </h2>
       <ul className="hero__linksContainer">
         <li className="hero__link">
-          <Link name="CV" link="" />
+          <Link name="CV" link={cv} download />
         </li>
         <li className="hero__link">
           <Link

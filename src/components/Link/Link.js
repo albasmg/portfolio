@@ -7,6 +7,7 @@ const Link = ({ link, name, extraClass }) => {
       target="_blank"
       rel="noopener noreferrer"
       className={`link ${extraClass}`}
+      download
     >
       {name}
     </a>

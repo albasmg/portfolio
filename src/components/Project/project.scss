@@ -5,53 +5,67 @@
   background-color: $light-color;
   margin: 10px;
 
-  &__imgContainer {
-    height: 400px;
-    background-color: lightgrey;
+  &:hover {
+    .project__imgContainer {
+      height: 0%;
+      transition: 1s ease-in-out;
+    }
   }
 
-  &__img {
-    height: 100%;
+  &__imgContainer {
+    position: absolute;
+    top: 0;
     width: 100%;
-    object-fit: cover;
+    height: 75%;
+    background-color: lightgrey;
+    transition: 1s ease-in-out;
   }
 
   &__title {
     color: $dark-color;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 20px;
   }
 
   &__description {
-    display: none;
     color: $dark-color;
     font-size: 20px;
     font-weight: lighter;
     margin-bottom: 20px;
   }
 
+  &__hiddenInfo {
+    margin-bottom: 120px;
+  }
+
   &__icons {
-    width: 50%;
-    margin: auto;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin-top: 20px;
+
+    :first-child {
+      margin-right: 30px;
+    }
   }
 
   &__icon {
-    display: none;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
   }
 
   &__info {
-    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
     width: 100%;
-    background-color: lightblue;
+    background-color: $light-color;
     position: absolute;
     bottom: 0;
     padding: 30px;
+    z-index: -1;
 
     &:hover {
       transition: ease-in 0.5s;
