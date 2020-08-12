@@ -58,6 +58,19 @@
   width: 100%;
   height: 70%;
   background: $secondary-color;
-  transform: skewY(-8deg);
   transform-origin: top left;
+  animation-name: initial-animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  transform: skewY(-8deg);
+}
+
+@keyframes initial-animation {
+  from {
+    transform: skewY(0deg);
+  }
+  to {
+    transform: skewY(-8deg);
+  }
 }
