@@ -1,8 +1,6 @@
 import React from 'react';
-import '../Link/link.scss';
 
 const Link = ({ link, name, extraClass }) => {
-  console.log(extraClass);
   return (
     <a
       href={link}

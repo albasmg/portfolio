@@ -1,0 +1,15 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-color;
+  height: 30px;
+  width: 60px;
+  border-radius: 16px;
+  margin-left: 20px;
+
+  &__type {
+    color: $light-color;
+    text-align: center;
+  }
+}

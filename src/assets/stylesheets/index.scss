@@ -1,0 +1,11 @@
+@import './App.scss';
+@import './_reset.scss';
+@import './_variables';
+
+//COMPONENTS
+@import '../../components/Header/header.scss';
+@import '../../components/Hero/hero.scss';
+@import '../../components/Link/link.scss';
+@import '../../components/Projects/projects.scss';
+@import '../../components/Project/project.scss';
+@import '../../components/Badge/badge.scss';

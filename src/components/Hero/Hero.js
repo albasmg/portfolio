@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Link from '../Link/Link';
-import './hero.scss';
 
 const likes = ['el diseño', 'resolver problemas', 'aprender cosas nuevas'];
 

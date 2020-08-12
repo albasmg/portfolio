@@ -1,0 +1,28 @@
+.project {
+  height: 300px;
+  width: 400px;
+  background-color: $light-color;
+  margin: 10px;
+  padding-bottom: 20px;
+
+  &__imgContainer {
+    height: 200px;
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__title {
+    color: $dark-color;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0px 10px 20px;
+  }
+
+  &__skills {
+    display: flex;
+  }
+}
