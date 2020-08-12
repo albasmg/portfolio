@@ -6,7 +6,9 @@ import web from '../../assets/icons/web.png';
 const Project = (props) => {
   return (
     <article className="project">
-      <div className="project__imgContainer"></div>
+      <div className="project__imgContainer">
+        <img src={props.img} className="project__img"></img>
+      </div>
       <div className="project__info">
         <div className="project__hiddenInfo">
           <p className="project__description">{props.description}</p>

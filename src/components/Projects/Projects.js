@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../Project/Project';
-import serflixImg from '../../assets/images/serflix.png';
+import serflixImg from '../../assets/images/serflix.jpg';
+import rickAndMortyImg from '../../assets/images/rickandmorty.jpg';
 import theATeamImg from '../../assets/images/theateam.png';
 
 const Projects = (props) => {
@@ -14,6 +15,7 @@ const Projects = (props) => {
           }
           githubLink="https://github.com/Adalab/modulo-2-evaluacion-final-albasmg"
           webLink="http://beta.adalab.es/modulo-2-evaluacion-final-albasmg/"
+          img={serflixImg}
           skills={['HTML', 'SASS', 'JS']}
         />
         <Project
@@ -23,6 +25,7 @@ const Projects = (props) => {
           }
           githubLink="https://github.com/Adalab/modulo-3-evaluacion-final-albasmg"
           webLink="http://beta.adalab.es/modulo-3-evaluacion-final-albasmg/"
+          img={rickAndMortyImg}
           skills={['HTML', 'SASS', 'REACT']}
         />
       </div>
