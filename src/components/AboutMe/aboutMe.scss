@@ -1,0 +1,18 @@
+.aboutMe {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+
+  &__imgContainer {
+    height: 600px;
+    width: 40%;
+    background-color: lightgrey;
+    margin-right: 30px;
+  }
+
+  &__textContainer {
+    width: 40%;
+    line-height: 1.5;
+  }
+}
