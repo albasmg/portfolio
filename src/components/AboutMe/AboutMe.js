@@ -1,11 +1,16 @@
 import React from 'react';
 import Link from '../Link/Link';
+import profilePhoto from '../../assets/images/profilephoto.png';
 
 const AboutMe = () => {
   return (
     <section className="aboutMe">
-      <div className="aboutMe__imgContainer"></div>
-      <img></img>
+      <section>
+        <div class="skewed-about"></div>
+      </section>
+      <div className="aboutMe__imgContainer">
+        <img src={profilePhoto} alt="Alba" className="aboutMe__img"></img>
+      </div>
       <div className="aboutMe__textContainer">
         <h1>¡Hola! </h1>
         <p className="aboutMe__text">
@@ -24,11 +29,7 @@ const AboutMe = () => {
           Praesent dignissim metus purus, eget convallis odio fringilla vitae.
           Donec purus turpis, ultricies eget nulla nec, hendrerit suscipit
           massa. Suspendisse et suscipit elit, quis ornare ex. Praesent congue
-          erat ante. Integer luctus cursus tortor non tincidunt. Donec ac
-          finibus sem. In egestas scelerisque vulputate. Vestibulum elementum
-          dolor ac tortor finibus tempus. Duis condimentum vehicula lorem, ut
-          ultricies nunc finibus sed. Curabitur aliquet neque quis porta cursus.
-          Sed eu sagittis neque, id accumsan ex.
+          erat ante.
         </p>
       </div>
     </section>
