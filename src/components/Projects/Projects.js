@@ -2,7 +2,7 @@ import React from 'react';
 import Project from '../Project/Project';
 import serflixImg from '../../assets/images/serflix.jpg';
 import rickAndMortyImg from '../../assets/images/rickandmorty.jpg';
-import theATeamImg from '../../assets/images/theateam.png';
+import theATeamImg from '../../assets/images/theateam.jpg';
 
 const Projects = (props) => {
   return (
@@ -27,6 +27,16 @@ const Projects = (props) => {
           webLink="http://beta.adalab.es/modulo-3-evaluacion-final-albasmg/"
           img={rickAndMortyImg}
           skills={['HTML', 'SASS', 'REACT']}
+        />
+        <Project
+          title="El equipo A"
+          description={
+            'Landing page grupal en la que nos presentamos como equipo. Consta de una página inicial con la descripción del equipo, un detalle de cada una de nosotras y un formulario de contacto.'
+          }
+          githubLink="https://github.com/Adalab/project-promo-j-module-1-team-1"
+          webLink="http://beta.adalab.es/project-promo-j-module-1-team-1/index.html#adalabers"
+          img={theATeamImg}
+          skills={['HTML', 'CSS', 'SASS']}
         />
       </div>
     </section>
