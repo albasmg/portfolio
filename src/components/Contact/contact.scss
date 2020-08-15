@@ -1,0 +1,37 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  padding: 60px 0px 0px 40px;
+  background-color: $light-color;
+
+  &__heading {
+    font-size: 28px;
+  }
+
+  &__text {
+    margin-top: 24px;
+    font-size: 21px;
+    line-height: 175%;
+    width: 60%;
+  }
+
+  &__linkContainer {
+    margin-top: 24px;
+  }
+
+  &__mailLink {
+    font-size: 24px;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      background-color: $secondary-color;
+      padding-left: 20px;
+      padding-right: 20px;
+      transition: 1s ease-in-out;
+    }
+  }
+}
