@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "./static/css/main.450159ae.chunk.css",
-    "main.js": "./static/js/main.f32f4894.chunk.js",
-    "main.js.map": "./static/js/main.f32f4894.chunk.js.map",
+    "main.css": "./static/css/main.0e502c55.chunk.css",
+    "main.js": "./static/js/main.df712c21.chunk.js",
+    "main.js.map": "./static/js/main.df712c21.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
     "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
-    "static/js/2.f57f90ba.chunk.js": "./static/js/2.f57f90ba.chunk.js",
-    "static/js/2.f57f90ba.chunk.js.map": "./static/js/2.f57f90ba.chunk.js.map",
+    "static/js/2.acac7a67.chunk.js": "./static/js/2.acac7a67.chunk.js",
+    "static/js/2.acac7a67.chunk.js.map": "./static/js/2.acac7a67.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.063dfdc48115ab23ddf82b67ce34f681.js": "./precache-manifest.063dfdc48115ab23ddf82b67ce34f681.js",
+    "precache-manifest.385d0a68f832b1aa3da9669f84aa5c49.js": "./precache-manifest.385d0a68f832b1aa3da9669f84aa5c49.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.450159ae.chunk.css.map": "./static/css/main.450159ae.chunk.css.map",
-    "static/js/2.f57f90ba.chunk.js.LICENSE.txt": "./static/js/2.f57f90ba.chunk.js.LICENSE.txt",
+    "static/css/main.0e502c55.chunk.css.map": "./static/css/main.0e502c55.chunk.css.map",
+    "static/js/2.acac7a67.chunk.js.LICENSE.txt": "./static/js/2.acac7a67.chunk.js.LICENSE.txt",
     "static/media/CV-AlbaSanMartín.pdf": "./static/media/CV-AlbaSanMartín.dcf61cd6.pdf",
+    "static/media/futuramas.jpg": "./static/media/futuramas.4d1ace2a.jpg",
+    "static/media/profilephoto.png": "./static/media/profilephoto.63644cca.png",
     "static/media/rickandmorty.jpg": "./static/media/rickandmorty.c63ec1f5.jpg",
-    "static/media/serflix.jpg": "./static/media/serflix.1ff0a16b.jpg"
+    "static/media/serflix.jpg": "./static/media/serflix.1ff0a16b.jpg",
+    "static/media/theateam.jpg": "./static/media/theateam.b4d94d0e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
-    "static/js/2.f57f90ba.chunk.js",
-    "static/css/main.450159ae.chunk.css",
-    "static/js/main.f32f4894.chunk.js"
+    "static/js/2.acac7a67.chunk.js",
+    "static/css/main.0e502c55.chunk.css",
+    "static/js/main.df712c21.chunk.js"
   ]
 }
