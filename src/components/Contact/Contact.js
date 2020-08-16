@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '../Link/Link';
+import Links from '../Links/Links';
 
 const Contact = () => {
   return (
@@ -20,29 +20,7 @@ const Contact = () => {
           alba.sanmartin.g@gmail.com
         </a>
       </div>
-      <ul className="hero__linksContainer">
-        <li className="hero__link">
-          <Link
-            name="GitHub"
-            link="https://github.com/albasmg"
-            extraClass="hero__socialNetwork"
-          />
-        </li>
-        <li className="hero__link">
-          <Link
-            name="Linkedin"
-            link="https://www.linkedin.com/in/albasanmartingarcia/"
-            extraClass="hero__socialNetwork"
-          />
-        </li>
-        <li className="hero__link">
-          <Link
-            name="Twitter"
-            link="https://twitter.com/albsmg"
-            extraClass="hero__socialNetwork"
-          />
-        </li>
-      </ul>
+      <Links />
     </section>
   );
 };

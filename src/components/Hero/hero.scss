@@ -8,7 +8,7 @@
   z-index: 9999;
 
   &__heading {
-    font-size: 40px;
+    font-size: 30px;
     margin: 0px;
 
     @media all and (min-width: 768px) {
@@ -22,7 +22,7 @@
   }
 
   &__carousel {
-    font-size: 35px;
+    font-size: 22px;
     margin: 0px;
 
     @media all and (min-width: 768px) {
@@ -32,17 +32,6 @@
 
   &__likes {
     color: $secondary-color;
-  }
-
-  &__linksContainer {
-    display: flex;
-    margin-top: 30px;
-    padding: 0px;
-    list-style-type: none;
-  }
-
-  &__heroLink {
-    list-style-type: none;
   }
 
   &__socialNetwork {

@@ -1,0 +1,10 @@
+.links {
+  display: flex;
+  margin-top: 30px;
+  padding: 0px;
+  list-style-type: none;
+
+  &__link {
+    list-style-type: none;
+  }
+}

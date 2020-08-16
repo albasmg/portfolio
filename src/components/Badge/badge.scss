@@ -2,14 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $primary-color;
-  height: 30px;
-  width: 60px;
-  border-radius: 16px;
-  margin-left: 20px;
+  margin-right: 12px;
 
   &__type {
-    color: $light-color;
+    color: $primary-color;
+    font-size: 18px;
+    font-weight: lighter;
     text-align: center;
   }
 }

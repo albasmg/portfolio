@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Link from '../Link/Link';
-import cv from '../../assets/documents/CV-AlbaSanMartín.pdf';
+import Links from '../Links/Links';
 const likes = ['el diseño', 'resolver problemas', 'aprender cosas nuevas'];
 
 const Hero = (props) => {
@@ -16,42 +15,17 @@ const Hero = (props) => {
   return (
     <section className="hero">
       <h1 className="hero__heading">
-        ¡Hola! Soy Alba y soy
+        ¡Hola! Soy Alba, soy
         <span className="hero__position">Junior Front End developer</span>
       </h1>
       <h2 className="hero__carousel">
         y me gusta
         <span className="hero__likes"> {likes[likesIndex]}</span>
       </h2>
-      <ul className="hero__linksContainer">
-        <li className="hero__link">
-          <Link name="CV" link={cv} download />
-        </li>
-        <li className="hero__link">
-          <Link
-            name="GitHub"
-            link="https://github.com/albasmg"
-            extraClass="hero__socialNetwork"
-          />
-        </li>
-        <li className="hero__link">
-          <Link
-            name="Linkedin"
-            link="https://www.linkedin.com/in/albasanmartingarcia/"
-            extraClass="hero__socialNetwork"
-          />
-        </li>
-        <li className="hero__link">
-          <Link
-            name="Twitter"
-            link="https://twitter.com/albsmg"
-            extraClass="hero__socialNetwork"
-          />
-        </li>
-      </ul>
       <section>
         <div className="skewed"></div>
       </section>
+      <Links />
     </section>
   );
 };
