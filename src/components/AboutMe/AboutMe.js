@@ -19,7 +19,7 @@ const AboutMe = () => {
           <span>diseño UX/UI </span>cuando me picó la curiosidad de saber cómo
           aquellas apps que estaba diseñando podrían construirse para ser
           funcionales. Así descubrí el <span>desarrollo Front End</span> y
-          <span>Adalab</span>, donde me he formado para poder aportar mi
+          <span> Adalab</span>, donde me he formado para poder aportar mi
           creatividad y motivación en el proceso de desarrollo.
         </p>
       </div>

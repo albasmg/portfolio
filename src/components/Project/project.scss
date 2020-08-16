@@ -1,9 +1,14 @@
 .project {
   position: relative;
-  height: 600px;
-  width: 600px;
+  height: 400px;
+  width: 400px;
   background-color: $light-color;
   margin: 10px;
+
+  @media all and (min-width: 768px) {
+    height: 600px;
+    width: 600px;
+  }
 
   &:hover {
     .project__imgContainer {
@@ -29,20 +34,34 @@
 
   &__title {
     color: $dark-color;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+
+    @media all and (min-width: 768px) {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
   }
 
   &__description {
     color: $dark-color;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: lighter;
     margin-bottom: 20px;
+
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
   }
 
   &__hiddenInfo {
-    margin-bottom: 120px;
+    margin-bottom: 70px;
+
+    @media all and (min-width: 768px) {
+      margin-bottom: 120px;
+    }
   }
 
   &__icons {

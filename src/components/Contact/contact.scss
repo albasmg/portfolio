@@ -8,15 +8,23 @@
   background-color: $light-color;
 
   &__heading {
-    font-size: 28px;
+    font-size: 20px;
     color: $primary-color;
+
+    @media all and (min-width: 768px) {
+      font-size: 28px;
+    }
   }
 
   &__text {
     margin-top: 24px;
-    font-size: 21px;
+    font-size: 16px;
     line-height: 175%;
-    width: 60%;
+    width: 90%;
+
+    @media all and (min-width: 768px) {
+      font-size: 21px;
+    }
   }
 
   &__linkContainer {
@@ -24,9 +32,13 @@
   }
 
   &__mailLink {
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
     color: inherit;
+
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+    }
 
     &:hover {
       background-color: $secondary-color;

@@ -4,11 +4,16 @@
   position: relative;
 
   &__imgContainer {
-    height: 550px;
+    height: 300px;
     width: 40%;
-    margin-right: 30px;
-  }
+    margin-right: 0;
 
+    @media all and (min-width: 768px) {
+      height: 550px;
+      width: 40%;
+      margin-right: 30px;
+    }
+  }
   &__img {
     height: 100%;
     width: 100%;
@@ -16,11 +21,17 @@
   }
 
   &__textContainer {
-    width: 40%;
+    width: 70%;
     line-height: 1.5;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 12px;
+    margin-left: 14px;
+    margin-right: 10px;
 
+    @media all and (min-width: 768px) {
+      width: 40%;
+      font-size: 18px;
+    }
     span {
       font-weight: normal;
     }
