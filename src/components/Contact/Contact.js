@@ -6,8 +6,10 @@ const Contact = () => {
     <section className="contact">
       <h2 className="contact__heading">¿Hablamos?</h2>
       <p className="contact__text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ornare
-        elit. Fusce bibendum mi vel magna eleifend, quis commodo arcu tempus.
+        Estoy siempre abierta a aprender y, además... ¡Buscando mi primera
+        oportunidad como desarrolladora Front End! Si crees que mi perfil
+        profesional encaja con lo que buscas, quieres darme feedback sobre mis
+        proyectos o simplemente quieres charlar, ¡no dudes en contactarme! ☕️
       </p>
       <div className="contact__linkContainer">
         <a

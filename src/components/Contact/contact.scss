@@ -21,10 +21,11 @@
     font-weight: lighter;
     font-size: 12px;
     line-height: 175%;
-    width: 60%;
+    width: 80%;
 
     @media all and (min-width: 768px) {
       font-size: 18px;
+      width: 70%;
     }
   }
 
