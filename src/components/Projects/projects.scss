@@ -1,14 +1,14 @@
 .projects {
-  display: flex;
-  justify-content: center;
   padding: 30px;
   position: relative;
   z-index: 9999;
 
   &__container {
+    max-width: 1400px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    justify-content: space-around;
   }
 }
 
