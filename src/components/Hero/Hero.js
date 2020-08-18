@@ -16,12 +16,10 @@ const Hero = (props) => {
     <section className="hero">
       <h1 className="hero__heading">
         ¡Hola! Soy Alba, soy
-        <span className="hero__position">Junior Front End developer</span>
-      </h1>
-      <h2 className="hero__carousel">
-        y me gusta
+        <span className="hero__position">Junior Front End developer</span> y me
+        gusta
         <span className="hero__likes"> {likes[likesIndex]}</span>
-      </h2>
+      </h1>
       <section>
         <div className="skewed"></div>
       </section>

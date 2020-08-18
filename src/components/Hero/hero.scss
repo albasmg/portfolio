@@ -10,24 +10,16 @@
   &__heading {
     font-size: 24px;
     margin: 0px;
+    line-height: 64px;
 
     @media all and (min-width: 768px) {
-      font-size: 70px;
+      font-size: 60px;
     }
   }
 
   &__position {
     display: block;
     color: $primary-color;
-  }
-
-  &__carousel {
-    font-size: 20px;
-    margin: 0px;
-
-    @media all and (min-width: 768px) {
-      font-size: 60px;
-    }
   }
 
   &__likes {
