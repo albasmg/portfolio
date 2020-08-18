@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.14137e38.chunk.css",
+    "main.css": "./static/css/main.5830950c.chunk.css",
     "main.js": "./static/js/main.705014fd.chunk.js",
     "main.js.map": "./static/js/main.705014fd.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
@@ -8,9 +8,9 @@
     "static/js/2.acac7a67.chunk.js": "./static/js/2.acac7a67.chunk.js",
     "static/js/2.acac7a67.chunk.js.map": "./static/js/2.acac7a67.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.3587d6cd320a944c61aaa1fd9a446449.js": "./precache-manifest.3587d6cd320a944c61aaa1fd9a446449.js",
+    "precache-manifest.22e11beb23289062edde2da134a10f9d.js": "./precache-manifest.22e11beb23289062edde2da134a10f9d.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.14137e38.chunk.css.map": "./static/css/main.14137e38.chunk.css.map",
+    "static/css/main.5830950c.chunk.css.map": "./static/css/main.5830950c.chunk.css.map",
     "static/js/2.acac7a67.chunk.js.LICENSE.txt": "./static/js/2.acac7a67.chunk.js.LICENSE.txt",
     "static/media/CV-AlbaSanMartín.pdf": "./static/media/CV-AlbaSanMartín.dcf61cd6.pdf",
     "static/media/futuramas.jpg": "./static/media/futuramas.e1d77fbe.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
     "static/js/2.acac7a67.chunk.js",
-    "static/css/main.14137e38.chunk.css",
+    "static/css/main.5830950c.chunk.css",
     "static/js/main.705014fd.chunk.js"
   ]
 }
