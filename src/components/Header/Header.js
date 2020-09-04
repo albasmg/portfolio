@@ -1,18 +1,25 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import Link from '../Link/Link';
 
-const Header = (props) => {
+const Header = () => {
   return (
     <header className="header">
       <ul className="header__menu">
         <li className="header__menuElement">
-          <Link name="Proyectos"></Link>
+          <HashLink to="#projects" className="header__nav">
+            Proyectos
+          </HashLink>
         </li>
         <li className="header__menuElement">
-          <Link name="Sobre mi" />
+          <HashLink to="#aboutMe" className="header__nav">
+            Sobre mi
+          </HashLink>
         </li>
         <li className="header__menuElement">
-          <Link name="Contacto" />
+          <HashLink to="#aboutMe" className="header__nav">
+            Contacto
+          </HashLink>
         </li>
       </ul>
     </header>

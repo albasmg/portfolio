@@ -16,4 +16,13 @@
   &__menuElement {
     margin: 20px;
   }
+
+  &__nav {
+    text-decoration: none;
+    font-weight: lighter;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
 }

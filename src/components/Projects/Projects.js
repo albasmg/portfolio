@@ -8,6 +8,7 @@ import futuramasImg from '../../assets/images/futuramas.jpg';
 const Projects = (props) => {
   return (
     <section className="projects" id="projects">
+      <h2 className="projects__heading">Mis proyectos</h2>
       <div className="projects__container">
         <Project
           title="Serflix"
