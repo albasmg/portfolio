@@ -23,7 +23,7 @@ const Projects = (props) => {
         <Project
           title="Rick and Morty character finder"
           description={
-            'Se trata de un buscador de los personajes de la serie Rick y Morty por nombre. Permite ordenar los resultados en orden alfabético y ver los detalle de los personajes tales como si están vivos, de dónde proceden o el número de episodios en los que han aparecido.'
+            'Buscador de los personajes de la serie Rick y Morty por nombre. Permite ordenar los resultados en orden alfabético y ver detalles de los personajes tales como si están vivos o el número de episodios en los que han aparecido.'
           }
           githubLink="https://github.com/Adalab/modulo-3-evaluacion-final-albasmg"
           webLink="http://beta.adalab.es/modulo-3-evaluacion-final-albasmg/"

@@ -23,27 +23,28 @@ const AboutMe = () => {
             <span> Adalab</span>, donde me he formado para poder aportar mi
             creatividad y motivación en el proceso de desarrollo.
           </p>
-        </div>
-      </div>
-      <div className="aboutMe__skills">
-        <div>
-          <h3>Herramientas técnicas</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS</li>
-            <li>JavaScript </li>
-            <li>React</li>
-            <li>Git</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Habilidades personales</h3>
-          <ul>
-            <li>Trabajo en equipo</li>
-            <li>Aprendizaje continuo</li>
-            <li>Creatividad</li>
-          </ul>
+          <div className="aboutMe__skills">
+            <h2>Skills:</h2>
+            <div className="aboutMe__skillsContainer">
+              <ul className="aboutMe__skillsList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>JavaScript </li>
+                <li>React</li>
+                <li>Git</li>
+                <li>Gulp</li>
+              </ul>
+            </div>
+            <div className="aboutMe__skillsContainer">
+              <ul className="aboutMe__skillsList">
+                <li>Trabajo en equipo</li>
+                <li>Aprendizaje continuo</li>
+                <li>Creatividad</li>
+                <li>UX/UI</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
