@@ -9,7 +9,10 @@ const Contact = () => {
         Estoy siempre abierta a aprender y, además... ¡Buscando mi primera
         oportunidad como desarrolladora Front End! Si crees que mi perfil
         profesional encaja con lo que buscas, quieres darme feedback sobre mis
-        proyectos o simplemente quieres charlar, ¡no dudes en contactarme! ☕️
+        proyectos o simplemente quieres charlar, ¡no dudes en contactarme!{' '}
+        <span role="img" aria-label="Coffee">
+          ☕️
+        </span>
       </p>
       <div className="contact__linkContainer">
         <a

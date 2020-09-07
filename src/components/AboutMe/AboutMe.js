@@ -1,19 +1,23 @@
 import React from 'react';
-import Link from '../Link/Link';
 import profilePhoto from '../../assets/images/profilephoto.png';
 
 const AboutMe = () => {
   return (
     <section className="aboutMe" id="aboutMe">
       <section>
-        <div class="skewed-about"></div>
+        <div className="skewed-about"></div>
       </section>
       <div className="aboutMe__mainInfo">
         <div className="aboutMe__imgContainer">
           <img src={profilePhoto} alt="Alba" className="aboutMe__img"></img>
         </div>
         <div className="aboutMe__textContainer">
-          <h1>¡Hola! 👋🏻 </h1>
+          <h1>
+            ¡Hola!{' '}
+            <span role="img" aria-label="Hi!">
+              👋🏻
+            </span>{' '}
+          </h1>
           <p className="aboutMe__text">
             Mi nombre es <span>Alba</span>. Siempre me han apasionado las
             tecnologías y el mundo digital. Fue durante un bootcamp de{' '}
