@@ -9,7 +9,6 @@ const Hero = (props) => {
     setInterval(() => {
       setLikesIndex((likesIndex) => (likesIndex === 2 ? 0 : likesIndex + 1));
     }, 1500);
-    //TODO: limpiar intervalo cuando se cambie de página
   }, []);
 
   return (

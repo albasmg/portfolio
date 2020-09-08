@@ -16,7 +16,7 @@ const Header = () => {
           </HashLink>
         </li>
         <li className="header__menuElement">
-          <HashLink to="#aboutMe" className="header__nav">
+          <HashLink to="#contact" className="header__nav">
             Contacto
           </HashLink>
         </li>

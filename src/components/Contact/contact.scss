@@ -20,11 +20,12 @@
 
   &__text {
     margin-top: 24px;
+    padding-right: 8px;
     line-height: 1.5;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 175%;
-    width: 80%;
+    width: 100%;
 
     @media all and (min-width: 768px) {
       font-size: 18px;

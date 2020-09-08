@@ -3,7 +3,7 @@ import Links from '../Links/Links';
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <h2 className="contact__heading">¿Hablamos?</h2>
       <p className="contact__text">
         Estoy siempre abierta a aprender y, además... ¡Buscando mi primera
