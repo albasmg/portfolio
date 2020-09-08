@@ -28,7 +28,7 @@ const AboutMe = () => {
             creatividad y motivación en el proceso de desarrollo.
           </p>
           <div className="aboutMe__skills">
-            <h2>Skills:</h2>
+            <h2>Skills</h2>
             <div className="aboutMe__skillsContainer">
               <ul className="aboutMe__skillsList">
                 <li>HTML</li>
